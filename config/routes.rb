@@ -1,5 +1,7 @@
 Zeratul::Application.routes.draw do
 
+  get "orbital_command/index"
+
   devise_for :users
 
   resources :pro_players , :path => :pros
