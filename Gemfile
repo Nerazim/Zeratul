@@ -24,6 +24,7 @@ group :development do
   gem 'capistrano',     '~> 2.14.2'
   gem 'capistrano-unicorn', :require => false
   gem 'guard-minitest'
+  gem 'pry'
   gem 'rb-inotify', :require => false
   gem 'rb-fsevent', :require => false
   gem 'rb-fchange', :require => false

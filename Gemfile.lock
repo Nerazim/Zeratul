@@ -263,6 +263,7 @@ DEPENDENCIES
   minitest-rails-capybara
   mocha
   pg (~> 0.12)
+  pry
   rails (~> 3.2.13)
   rb-fchange
   rb-fsevent
