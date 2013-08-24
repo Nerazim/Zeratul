@@ -29,7 +29,6 @@ group :development do
   gem 'rb-fsevent', :require => false
   gem 'rb-fchange', :require => false
   gem 'rvm-capistrano', '~> 1.3.0'
-  gem 'vagrant'
 end
 
 group :development, :test do
