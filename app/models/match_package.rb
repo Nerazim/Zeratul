@@ -1,1 +1,1 @@
-class MatchPackage < ActiveRecord::Base; end
+class MatchPackage < Package; end

@@ -1,2 +1,5 @@
 %h1 OrbitalCommand#index
-%p Find me in app/views/orbital_command/index.html.haml
+- @packages.each do |package|
+  = "Payload: #{package.payload}"
+  = "Created At: #{package.created_at}"
+  %br

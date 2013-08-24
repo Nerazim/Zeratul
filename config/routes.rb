@@ -1,6 +1,6 @@
 Zeratul::Application.routes.draw do
 
-  get "orbital_command/index"
+  get "orbital_command", to: "orbital_command#index"
   post "orbital_command/e"
 
   devise_for :users

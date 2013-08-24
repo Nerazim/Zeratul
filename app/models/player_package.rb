@@ -1,1 +1,1 @@
-class PlayerPackage < ActiveRecord::Base; end
+class PlayerPackage < Package; end
