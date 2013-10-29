@@ -1,0 +1,1 @@
+class PlayerPackage < Package; end

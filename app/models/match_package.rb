@@ -1,0 +1,1 @@
+class MatchPackage < Package; end
